@@ -24,7 +24,7 @@
 > The VSCode settings file will require you to install a list of extensions and manually change the `zig.zls.path` to the path of your Zig compiler executable. The extensions you need are listed with links in the [extensions list](/Windows/VSCode/extensions.md) file.
 
 > [!WARNING]
-> Nano-For-Windows will require you to replace the `<USERNAME>` in the `.nanorc` file with your Windows username. Nano also requires you to go to the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder and copy the `syntax` folder into it.
+> Nano-For-Windows will require you to replace the `<USERNAME>` in the `.nanorc` file with your Windows username. Nano also requires you to go to the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder and copy the [syntax folder](/Windows/nano/syntax/) into it.
 
 ### - List of Files:
   - [Powershell PROFILE](/Windows/Powershell/PROFILE.json) use `notepad.exe $PROFILE` to open your `$PROFILE` file.
@@ -35,8 +35,8 @@
   - [VSCode Settings](/Windows/VSCode/settings.json) to find your VSCode settings file go to `%APPDATA%\Code\User\` and open `settings.json`.
   - [VSCode Extensions](/Windows/VSCode/extensions.md) a list of VSCode extensions with links to their websites that you will need to install for the VSCode settings file to work.
 
-  - [Nano Config File](/Windows/Nano/.nanorc) to find your Nano syntax file, go to `C:/users/<USERNAME>` and open the `.nanorc` file.
-  - [Nano Syntax Folder](/Windows/Nano/syntax) a folder of Nano syntax files that you will need to copy into the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder.
+  - [Nano Config File](/Windows/nano/.nanorc) to find your Nano syntax file, go to `C:/users/<USERNAME>` and open the `.nanorc` file.
+  - [Nano Syntax Folder](/Windows/nano/syntax) a folder of Nano syntax files that you will need to copy into the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder.
 
 <hr />
 
