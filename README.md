@@ -1,5 +1,7 @@
 # Profile-Configs
 
+<hr />
+
 ## [Windows Configs](/Windows):
 
 > [!TIP]
