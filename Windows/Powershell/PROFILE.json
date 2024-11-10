@@ -3,7 +3,6 @@ oh-my-posh init pwsh --config 'C:\Users\James\AppData\Local\Programs\oh-my-posh\
 
 # ALIAS' LIST:
 
-# `make` = `mingw32-make`
 Set-Alias make mingw32-make
 
 # `i` = `ii .`
