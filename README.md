@@ -16,11 +16,11 @@ You can use these to get started with a new computer<br> or to make your current
 <h2>Configs:</h2>
 
 <div align="center"> 
-  <a href="https://github.com/james-beans/Profile-Configs/blob/main/LICENSE" target="_blank">
+  <a href="https://github.com/james-beans/Profile-Configs/blob/main/Windows-config.md" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/Windows-Config-1F222E?style=for-the-badge&color=black&logoColor=black&logo=windows&labelColor=white" target="_blank" />
   </a>
   <br />
-  <a href="https://github.com/james-beans/Profile-Configs/blob/main/LICENSE" target="_blank">
+  <a href="https://github.com/james-beans/Profile-Configs/blob/main/Linux-config.md" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/Linux-Config-1F222E?style=for-the-badge&color=black&logoColor=black&logo=linux&labelColor=white" target="_blank" />
   </a>
 </div>
