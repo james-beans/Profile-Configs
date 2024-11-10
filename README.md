@@ -56,7 +56,12 @@
 > I use Debian 12 Linux for this. Not all programs are available for other Linux distros.
 
 ### - Dependencies:
-  -
+  - Install Homebrew using:
+  ```
+  test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+  test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+  ```
+  - Install Oh-My-Posh using `brew install jandedobbeleer/oh-my-posh/oh-my-posh`
 
 
 
