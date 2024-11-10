@@ -1,8 +1,6 @@
 # Profile-Configs
 
-<hr />
-
-## [Windows Config](/Windows):
+## [Windows Configs](/Windows):
 
 > [!TIP]
 > I use Windows 11. This setup will not work for all versions of Windows. Anything later than Windows 10 I wouldn't recommend even trying to run this setup on.
@@ -20,7 +18,7 @@
 
 <hr />
 
-## [Linux Config](/Linux):
+## [Linux Configs](/Linux):
 
 > [!TIP]
 > I use Debian 12 Linux for this. Not all programs are available for other Linux distros.
