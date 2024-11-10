@@ -6,6 +6,7 @@
 <summary><h2><a href="https://github.com/james-beans/Profile-Configs/tree/main/Windows">Windows Configs</a></h2></summary>
 <br />
 
+
 > [!TIP]
 > I use Windows 11. This setup will not work for all versions of Windows. Anything later than Windows 10 I wouldn't recommend even trying to run this setup on.
 
@@ -48,6 +49,7 @@
 <details open>
 <summary><h2><a href="https://github.com/james-beans/Profile-Configs/tree/main/Linux">Linux Configs</a></h2></summary>
 <br />
+
 
 > [!TIP]
 > I use Debian 12 Linux for this. Not all programs are available for other Linux distros.
