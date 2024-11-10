@@ -5,7 +5,6 @@
 <details open>
 <summary><h2><a href="https://github.com/james-beans/Profile-Configs/tree/main/Windows">Windows Configs</a></h2></summary>
 <br />
-<div>
 
 > [!TIP]
 > I use Windows 11. This setup will not work for all versions of Windows. Anything later than Windows 10 I wouldn't recommend even trying to run this setup on.
@@ -43,14 +42,12 @@
   - [Nano Config File](/Windows/nano/.nanorc) to find your Nano syntax file, go to `C:/users/<USERNAME>` and open the `.nanorc` file.
   - [Nano Syntax Folder](/Windows/nano/syntax) a folder of Nano syntax files that you will need to copy into the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder.
 
-</div>
 </details>
 <hr />
 
 <details open>
 <summary><h2><a href="https://github.com/james-beans/Profile-Configs/tree/main/Linux">Linux Configs</a></h2></summary>
 <br />
-<div>
 
 > [!TIP]
 > I use Debian 12 Linux for this. Not all programs are available for other Linux distros.
@@ -68,5 +65,4 @@
 ### - List of Files:
   - [.bashrc](/Linux/Terminal/.bashrc) to find your terminal settings file, go to `~` and open the `.bashrc` file using a text editor like `nano`. So `nano ~/.bashrc` to open it.
 
-</div>
 </details>
