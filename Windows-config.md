@@ -32,6 +32,9 @@
 > [!WARNING]
 > Nano-For-Windows will require you to replace the `<USERNAME>` in the `.nanorc` file with your Windows username. Nano also requires you to go to the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder and copy the [syntax folder](/Windows/nano/syntax/) into it.
 
+> [!WARNING]
+> You will need to change the `codedir` and `gitcode` functions with their own paths like `E:/code/` for `codedir` and `E:/code/github/` for `gitcode` in the [Powershell PROFILE](/Windows/Powershell/PROFILE.ps1).
+
 ### - List of Files:
   - [Powershell PROFILE](/Windows/Powershell/PROFILE.ps1) use `notepad.exe $PROFILE` to open your `$PROFILE` file.
   - [Windows Terminal Settings (themes only)](/Windows/Terminal/settings.json) to find your Windows Terminal settings file, go to `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\` and open `settings.json`.
