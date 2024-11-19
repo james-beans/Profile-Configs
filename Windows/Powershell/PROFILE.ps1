@@ -11,14 +11,14 @@ function i {
     ii .
 }
 
-# `profile` = `code-insiders $PROFILE`
+# `profile` = `code $PROFILE`
 function profile {
-    code-insiders $PROFILE
+    code $PROFILE
 }
 
-# `cir` = `code-insiders .`
+# `cir` = `code .`
 function cir {
-    code-insiders .
+    code .
 }
 
 # `i` = `ii .`
