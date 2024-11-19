@@ -20,6 +20,12 @@
   - Install Oh-My-Posh using `winget install JanDeDobbeleer.OhMyPosh -s winget`
   - Install Nano-For-Windows using `scoop bucket add .oki https://github.com/okibcn/Bucket` and then `scoop install nano`
 
+> [!TIP]
+> You can install the [insiders edition of VSCode](https://code.visualstudio.com/insiders/) for the latest VSCode updates but you will need to change the word `code` to `code-insiders` in the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1). You also might need to install the original VSCode and then sync the settings with a Github account over to the insiders version. When syncing from insiders side select `stable` not `insiders` so you get the same extensions and setup. 
+
+> [!WARNING]
+> You will need to replace `USERNAME_HERE` in the Oh-My-Posh url listed at the top of the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1).
+
 > [!WARNING]
 > The VSCode settings file will require you to install a list of extensions and manually change the `zig.zls.path` to the path of your Zig compiler executable. The extensions you need are listed with links in the [extensions list](/Windows/VSCode/extensions.md) file.
 
@@ -27,7 +33,7 @@
 > Nano-For-Windows will require you to replace the `<USERNAME>` in the `.nanorc` file with your Windows username. Nano also requires you to go to the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder and copy the [syntax folder](/Windows/nano/syntax/) into it.
 
 ### - List of Files:
-  - [Powershell PROFILE](/Windows/Powershell/PROFILE.json) use `notepad.exe $PROFILE` to open your `$PROFILE` file.
+  - [Powershell PROFILE](/Windows/Powershell/PROFILE.ps1) use `notepad.exe $PROFILE` to open your `$PROFILE` file.
   - [Windows Terminal Settings (themes only)](/Windows/Terminal/settings.json) to find your Windows Terminal settings file, go to `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\` and open `settings.json`.
 
   - [.gitconfig](/Windows/Git/.gitconfig) to find your git config file, go to `%USERPROFILE%\` and open `.gitconfig`.
