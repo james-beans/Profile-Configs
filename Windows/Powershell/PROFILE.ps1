@@ -47,6 +47,11 @@ function codedir {
     cd <EDIT_THIS_PATH>
 }
 
+# `gitdesk` = `start github` or opening github desktop
+function gitdesk {
+    start github
+}
+
 # CUSTOM COMMANDS
 
 # `cfghelp` = This message.
@@ -62,6 +67,7 @@ function cfghelp {
     Write-Host "  make - Runs `mingw32-make` " -ForegroundColor Green
     Write-Host "  codehere  - Opens VSCode in the current dir" -ForegroundColor Green
     Write-Host "  gitcode  - Opens the github dir inside your code folder." -ForegroundColor Green
+    Write-Host "  gitdesk  - Opens Github Desktop from the terminal." -ForegroundColor Green
     Write-Host "  files  - Opens the File Explorer in the current dir." -ForegroundColor Green
     Write-Host "  codedir  - Opens the folder where your code is." -ForegroundColor Green
     Write-Host "====================" -ForegroundColor Yellow
