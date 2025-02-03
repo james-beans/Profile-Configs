@@ -1,5 +1,9 @@
 # Initialize Oh My Posh with the specified theme
-oh-my-posh init pwsh --config 'C:\Users\USERNAME_HERE\AppData\Local\Programs\oh-my-posh\themes\multiverse-neon.omp.json' | Invoke-Expression
+# Use either:
+# `C:\Users\USERNAME_HERE\AppData\Local\Programs\oh-my-posh\themes\multiverse-neon.omp.json` (change the USERNAME_HERE to be your Windows username),
+# `https://raw.githubusercontent.com/james-beans/mono-style/refs/heads/main/src/monostyle.omp.json` or
+# what ever theme you want from https://ohmyposh.dev/docs/themes .
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/james-beans/mono-style/refs/heads/main/src/monostyle.omp.json' | Invoke-Expression
 
 # ALIAS' LIST:
 
