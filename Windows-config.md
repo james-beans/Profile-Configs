@@ -27,7 +27,7 @@
 > You can install the [insiders edition of VSCode](https://code.visualstudio.com/insiders/) for the latest VSCode updates but you will need to change the word `code` to `code-insiders` in the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1). You also might need to install the original VSCode and then sync the settings with a Github account over to the insiders version. When syncing from insiders side select `stable` not `insiders` so you get the same extensions and setup. 
 
 > [!WARNING]
-> You will need to replace `USERNAME_HERE` in the Oh-My-Posh url listed at the top of the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1).
+> Check if the theme you have chosen from [here](https://ohmyposh.dev/docs/themes) or the Oh-My-Posh url listed at the top of the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1) has the correct Windows username and change it to be the correct Windows username if not.
 
 > [!WARNING]
 > The VSCode settings file will require you to install a list of extensions and manually change the `zig.zls.path` to the path of your Zig compiler executable. The extensions you need are listed with links in the [extensions list](/Windows/VSCode/extensions.md) file.
