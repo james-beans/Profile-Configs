@@ -8,6 +8,9 @@
 > [!TIP]
 > Run all of these commands to install from an administrator Powershell window.
 
+> [!WARNING]
+> Scoop will not install from the command using an administrator Powershell window. Install Scoop seperately without administrator.
+
 ### - Dependencies:
   - Install Windows terminal from [the Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-gb&gl=US)
   - Install Chocolatey package manager from [the individual install webiste](https://chocolatey.org/install#individual)
