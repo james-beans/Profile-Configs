@@ -1,5 +1,5 @@
 # Initialize Oh My Posh with the specified theme
-oh-my-posh init pwsh --config 'C:\Users\James\AppData\Local\Programs\oh-my-posh\themes\multiverse-neon.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\USERNAME_HERE\AppData\Local\Programs\oh-my-posh\themes\multiverse-neon.omp.json' | Invoke-Expression
 
 # ALIAS' LIST:
 
