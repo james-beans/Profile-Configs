@@ -3,13 +3,13 @@
 <br />
 
 > [!TIP]
-> I use Windows 11. This setup will not work for all versions of Windows. Anything later than Windows 10 I wouldn't recommend even trying to run this setup on.
+> I use Windows 11. This setup will not work for **all** versions of Windows. Anything before Windows 10 (e.g. Windows 95, 98, 2000, XP, 7 and  8) I wouldn't recommend trying to run this setup on.
 
 > [!TIP]
-> Run all of these commands to install from an administrator Powershell window.
+> Run most (see warning below) of these commands to install from an administrator Powershell window.
 
 > [!WARNING]
-> Scoop will not install from the command using an administrator Powershell window. Install Scoop seperately without administrator.
+> Scoop will not install from the command using an administrator Powershell window. Install Scoop seperately (still before Nano-For-Windows) without administrator.
 
 ### - Dependencies:
   - Install Windows terminal from [the Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-gb&gl=US)
@@ -37,6 +37,9 @@
 
 > [!WARNING]
 > You will need to change the `codedir` and `gitcode` functions with their own paths like `E:/code/` for `codedir` and `E:/code/github/` for `gitcode` in the [Powershell PROFILE](/Windows/Powershell/PROFILE.ps1).
+
+> [!TIP]
+> Did you know that you can change the style of the oh-my-posh prefix in the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1)? See more about [built in themes here](https://ohmyposh.dev/docs/themes). Recommended theme URLS to use in the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1): `https://raw.githubusercontent.com/james-beans/mono-style/refs/heads/main/src/monostyle.omp.json` and `C:\Users\USERNAME_HERE\AppData\Local\Programs\oh-my-posh\themes\multiverse-neon.omp.json` (remember to change your Windows username to what it actually is for the second recommended url)
 
 ### - List of Files:
   - [Powershell PROFILE](/Windows/Powershell/PROFILE.ps1) use `notepad.exe $PROFILE` to open your `$PROFILE` file.
