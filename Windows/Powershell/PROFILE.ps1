@@ -31,9 +31,9 @@ function codehere {
     code .
 }
 
-# `compilec` = `gcc main.cpp -o program`
+# `compilec` = `gcc main.c -o program`
 function compilec {
-    gcc main.cpp -o program
+    gcc main.c -o program
 }
 
 # `compilecpp` = `g++ main.cpp -o program`
@@ -66,7 +66,7 @@ function cfghelp {
     Write-Host "Available Custom Commands:"
     Write-Host "  cfghelp   - Show this help message" -ForegroundColor Green
     Write-Host "  profile   - Edits the $-PROFILE file." -ForegroundColor Green
-    Write-Host "  compilec  - Runs `gcc main.cpp -o program` " -ForegroundColor Green
+    Write-Host "  compilec  - Runs `gcc main.c -o program` " -ForegroundColor Green
     Write-Host "  compilecpp - Runs `g++ main.cpp -o program` " -ForegroundColor Green
     Write-Host "  make - Runs `mingw32-make` " -ForegroundColor Green
     Write-Host "  codehere  - Opens VSCode in the current dir" -ForegroundColor Green
