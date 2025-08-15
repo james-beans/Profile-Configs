@@ -15,22 +15,22 @@
   - Install Windows terminal from [the Microsoft Store](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-gb&gl=US)
   - Install Chocolatey package manager from [the individual install webiste](https://chocolatey.org/install#individual)
   - Install Scoop package manager using `irm get.scoop.sh | iex`
+
   - Install Visual Studio Code from [the install website](https://code.visualstudio.com/download)
+
   - Install Github Desktop from [the install website](https://desktop.github.com/download/)
   - Install Git from [the install website](https://git-scm.com/downloads/win)
-  - Install Zig from [the install website](https://ziglang.org/learn/getting-started/)
+
+  - Install Rust from [the install website](https://rust-lang.org/tools/install/)
   - Install MinGW using `choco install mingw`
   - Install Oh-My-Posh using `winget install JanDeDobbeleer.OhMyPosh -s winget`
-  - Install Nano-For-Windows using `scoop bucket add .oki https://github.com/okibcn/Bucket` and then `scoop install nano`
+  - Install Nano-For-Windows using `scoop bucket add .oki https://github.com/okibcn/Bucket && scoop install nano`
 
 > [!TIP]
-> You can install the [insiders edition of VSCode](https://code.visualstudio.com/insiders/) for the latest VSCode updates but you will need to change the word `code` to `code-insiders` in the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1). You also might need to install the original VSCode and then sync the settings with a Github account over to the insiders version. When syncing from insiders side select `stable` not `insiders` so you get the same extensions and setup. 
+> You can install the [insiders edition of VSCode](https://code.visualstudio.com/insiders/) for the latest VSCode updates and you won't need to change anything. But if you install the normal [VSCode](https://code.visualstudio.com/) change `code-insiders` to `code` in the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1).
 
 > [!WARNING]
 > Check if the theme you have chosen from [here](https://ohmyposh.dev/docs/themes) or the Oh-My-Posh url listed at the top of the [PROFILE.ps1 file](/Windows/Powershell/PROFILE.ps1) has the correct Windows username and change it to be the correct Windows username if not.
-
-> [!WARNING]
-> The VSCode settings file will require you to install a list of extensions and manually change the `zig.zls.path` to the path of your Zig compiler executable. The extensions you need are listed with links in the [extensions list](/Windows/VSCode/extensions.md) file.
 
 > [!WARNING]
 > Nano-For-Windows will require you to replace the `<USERNAME>` in the `.nanorc` file with your Windows username. Nano also requires you to go to the `C:/users/<USERNAME>/scoop/apps/nano/current/` folder and copy the [syntax folder](/Windows/nano/syntax/) into it.
@@ -43,7 +43,7 @@
 
 ### - List of Files:
   - [Powershell PROFILE](/Windows/Powershell/PROFILE.ps1) use `notepad.exe $PROFILE` to open your `$PROFILE` file.
-  - [Windows Terminal Settings (themes only)](/Windows/Terminal/settings.json) to find your Windows Terminal settings file, go to `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\` and open `settings.json`.
+  - [Windows Terminal Settings](/Windows/Terminal/settings.json) to find your Windows Terminal settings file, go to `%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\` and open `settings.json`.
 
   - [.gitconfig](/Windows/Git/.gitconfig) to find your git config file, go to `%USERPROFILE%\` and open `.gitconfig`.
 
@@ -56,11 +56,11 @@
 
 <hr />
 
-<div align="center"> 
-  <a href="https://github.com/james-beans/Profile-Configs" target="_blank">
+<div align="center">
+  <a href="https://github.com/james-beans/config" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/Go-Home-1F222E?style=for-the-badge&color=black&logoColor=black&logo=home&labelColor=white" target="_blank" />
   </a>
-  <a href="https://github.com/james-beans/Profile-Configs/blob/main/LICENSE" target="_blank">
+  <a href="https://github.com/james-beans/config/blob/main/LICENSE" target="_blank">
     <img src="https://custom-icon-badges.demolab.com/badge/GNU-GPLV3-1F222E?style=for-the-badge&color=black&logoColor=black&logo=law&labelColor=white" target="_blank" />
   </a>
 </div>

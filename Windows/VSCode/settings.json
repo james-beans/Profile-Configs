@@ -1,24 +1,216 @@
 {
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "United Ubuntu",
-    "files.autoSave": "afterDelay",
-    "redhat.telemetry.enabled": true,
-    "git.suggestSmartCommit": false,
-    "explorer.confirmDelete": false,
-    "workbench.iconTheme": "icons",
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.fontFamily": "NotoMono NF, Noto Sans Mono, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "NotoMono NF Sembd",
-    "editor.fontSize": 15,
-    "editor.parameterHints.enabled": false,
-    "markdown-preview-enhanced.revealjsTheme": "black.css",
-    "markdown-preview-enhanced.previewTheme": "night.css",
-    "python.createEnvironment.trigger": "off",
-    "supermaven.allowGitignore": true,
-    "workbench.startupEditor": "none",
-    "editor.minimap.enabled": false,
-    "zig.path": "zig",
-    "zig.zls.path": "",
-    "zig.initialSetupDone": true
+  // main editor
+  "chat.commandCenter.enabled": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.decorations.colors": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.scrollbar.horizontal": "visible",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.parameterHints.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.editor.showTabs": "single",
+  "explorer.decorations.badges": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.showFoldingControls": "never",
+  "editor.renderLineHighlight": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.selectionHighlight": true,
+  "editor.guides.indentation": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.renderWhitespace": "none",
+  "workbench.startupEditor": "none",
+  "editor.cursorBlinking": "solid",
+  "editor.detectIndentation": true,
+  "editor.matchBrackets": "always",
+  "editor.minimap.enabled": false,
+  "editor.colorDecorators": true,
+  "editor.cursorStyle": "block",
+  "editor.fontLigatures": true, // -> => === (doesn't work with NotoMono NF)
+  "editor.hover.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.codeLens": false,
+  "editor.lineHeight": 0, // do not change unless you want it to be unusable
+  "editor.fontSize": 17.45,
+  "editor.links": true,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "editorCursor.background": "#000000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+    "[GitHub Dark Colorblind (Beta)]": {
+      "editorSuggestWidget.selectedBackground": "#163636",
+      "sideBar.background": "#010409"
+    },
+    "[Aura Dracula Spirit (Soft)]": {
+      "editorSuggestWidget.selectedBackground": "#3A334B",
+      "sideBar.background": "#191521"
+    }
+},
+
+  // suggestions
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.snippetSuggestions": "top",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "on",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "off"
+  },
+
+  // explorer
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "hidden",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.renderIndentGuides": "always",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "workbench.tree.indent": 15,
+
+  // top-file options
+  "breadcrumbs.enabled": false,
+
+  // file options
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+
+  // status bar
+  "workbench.statusBar.visible": false,
+  "window.zoomLevel": 0.9,
+  "window.titleBarStyle": "custom",
+
+  // custom ui style options
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hidden"
+  },
+  "custom-ui-style.stylesheet": {
+    ".notification-toast": "box-shadow: none !important",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".quick-input-widget": "top: 25vh !important",
+    ".quick-input-list .scrollbar": "display: none",
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    ".quick-input-titlebar": "background: #100B15 !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+    ".monaco-scrollable-element > .shadow.top": "display: none",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-list-row.focused": "outline: none !important",
+    ".monaco-editor .scroll-decoration": "display: none",
+    ".title-actions": "display: none !important",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #22F9B9 10%, #0BF759 100%)"
+  },
+  "custom-ui-style.font.sansSerif": "NotoMono NF",
+
+  // makefile options
+  "makefile.configureOnOpen": false,
+
+  // C-CPP options
+  "C_Cpp.compilerPath": "C:/mingw64/bin/clang.exe",
+  "C_Cpp.intelliSenseMode": "windows-clang-x64",
+  "C_Cpp.default.compilerPath": "C:/mingw64/bin/clang.exe",
+  "C_Cpp.default.intelliSenseMode": "windows-clang-x64",
+  "C_Cpp.default.systemIncludePath": [
+    // msys2 paths
+    "C:/msys64/mingw64/bin",
+    "C:/msys64/mingw64/lib",
+    "C:/msys64/mingw64/include",
+    "C:/msys64/mingw64/include/ncurses",
+    "C:/msys64/mingw64/include/ncursesw",
+
+    // mingw64 paths
+    "C:/mingw64/bin/",
+    "C:/mingw64/include/",
+    "C:/mingw64/include/SDL3/",
+    "C:/mingw64/include/SDL3_ttf",
+    "C:/mingw64/include/c++/14.2.0/",
+    "C:/mingw64/lib/clang/19/include",
+    "C:/mingw64/x86_64-w64-mingw32/include",
+
+    // raylib paths
+    "C:/Raylib",
+    "C:/Raylib/raylib",
+    "C:/Raylib/raylib/src/",
+
+    // vulkan sdk
+    "C:/PATH-Stuff/frameworks/VulkanSDK/1.4.304.1/Include",
+
+    // general path stuff
+    "C:/PATH-Stuff/INCLUDES",
+
+    // Emscripten JS paths
+    "E:/code-saved/needed-software/emsdk/upstream/emscripten/system/include"
+  ],
+
+  // typescript options
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // markdown options
+  "markdown.validate.enabled": false,
+
+  // git options
+  "git.suggestSmartCommit": false,
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "all",
+
+  // file type options
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.navigationControl.enabled": false,
+
+  // update
+  "update.mode": "default",
+
+  // extensions
+  "extensions.ignoreRecommendations": true,
+  "git.openRepositoryInParentFolders": "never",
+  "window.menuBarVisibility": "compact",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": true,
+  "IntelliSkript.UseColorTheme": false,
+  "svelte.enable-ts-plugin": true,
+  "java.imports.gradle.wrapper.checksums": [
+    {
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "allowed": true
+    }
+  ],
+  "AutoHotkey2.InterpreterPath": "c:\\Program Files\\AutoHotkey\\AutoHotkey.exe",
+  "powershell.promptToUpdatePowerShell": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.nextEditSuggestions.fixes": false,
 }

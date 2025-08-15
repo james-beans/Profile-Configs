@@ -128,12 +128,6 @@ test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew/ shellenv)"
 test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# Bash-Preexec
-[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
-
-# Atuin more history
-eval "$(atuin init bash)"
-
 # CUSTOM COMMANDS
 
 # Aliases list:
@@ -143,7 +137,6 @@ eval "$(atuin init bash)"
 # -- bash config editing
 alias ebsh='nano ~/.bashrc'
 alias rbsh='source ~/.bashrc'
-alias pexbsh='source ~/.bash-preexec.sh'
 
 # -- general commands
 
@@ -160,16 +153,6 @@ alias cls='clear'
 
 alias find='fzf'
 alias f='fzf'
-
-alias atn='atuin'
-alias atnl='atuin login'
-alias atnlo='atuin logout'
-alias atnk='atuin key'
-alias atni='atuin import bash'
-alias history='atuin history'
-alias hs='atuin history'
-alias hsc='atuin sync -f'
-alias history-sync='atuin sync -f'
 
 alias mp='mapscii'
 alias maps='mapscii'
@@ -191,21 +174,9 @@ alias asctxt='echo -e "watch the help video at: https://www.youtube.com/watch?v=
 alias asctxt-fonts='showfigfonts'
 
 # LOADED
-echo ""
-echo " - - - - - - - - - - - - - - -------------- - - - - - - - - - - - - - "
-echo ""
-echo "                              $date"
-echo "                              $time"
-# Oh-My-Posh styling. -- Prompt - https://ohmyposh.dev/docs/installation/prompt
-eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/multiverse-neon.omp.json')" && echo "                              OMP - ￢ﾜﾅ" || echo "                              OMP - ￢ﾝﾌ"
-echo ""
-echo " - - - - - - - - - - - - - - -------------- - - - - - - - - - - - - - "
-echo ""
+eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/multiverse-neon.omp.json')"
 
 # AFTER LOAD/NOT IMPORTANT
-
-# Automatic Neofetch run
-neofetch
 
 # Created by `pipx` on 2024-11-02 13:15:31
 export PATH="$PATH:/home/james/.local/bin"
